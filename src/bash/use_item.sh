@@ -6,4 +6,3 @@ userid="user_ID_of_someone";
 
 # sleep 1
 curl -X POST -H "apikey: "$apikey -H "accept: application/json" -H "Cache-Control: no-cache" -d '' "http://nerdquest.nerderylabs.com:1337/items/use/"$itemid"?target="$userid
-printf ",\n" >> "item.log"
